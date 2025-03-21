@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="LoginApp-JavaSwing:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LoginApp_JavaSwing_jar</output-path>
+    <root id="archive" name="LoginApp-JavaSwing.jar">
+      <element id="module-output" name="LoginApp-JavaSwing" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../GitHub/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0.jar" path-in-jar="/" />
+      <element id="library" level="project" name="mysql-connector-j-9.2.0" />
+    </root>
+  </artifact>
+</component>
