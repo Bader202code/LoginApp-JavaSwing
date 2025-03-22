@@ -8,12 +8,19 @@ public class AppLauncher {
             @Override
             public void run() {
                 //Instantiate a LoginFormGUI object and make it visible
-//                new LoginFormGUI().setVisible(true);
+                new LoginFormGUI().setVisible(true);
 
 
                 // check user test
-                System.out.println(MyJDBC.checkUser("username"));
+//                System.out.println(MyJDBC.checkUser("douglas"));
+
+                // Check register test
+//                System.out.println(MyJDBC.register("username", "password"));
+
+                // Check validate login test
+//                System.out.println(MyJDBC.validateLogin("username", "password"));
             }
+
         });
     }
 }

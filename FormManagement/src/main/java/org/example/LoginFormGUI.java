@@ -2,6 +2,8 @@ package org.example;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
@@ -74,6 +76,28 @@ public class LoginFormGUI extends  Form{
         loginButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         loginButton.setBackground(CommonConstants.TEXT_COLOR);
         loginButton.setBounds(125,520,250,50);
+
+        loginButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // get username
+                String username = usernameField.getText();
+
+                // get password
+                String password = new String(passwordField.getPassword());
+
+                // check database if the username and password combo is valid
+                if(MyJDBC.validateLogin(username, password)){
+                    // login successful
+                    JOptionPane.showMessageDialog(LoginFormGUI.this,
+                            "Login Successful!");
+                }else{
+                    // login failed
+                    JOptionPane.showMessageDialog(LoginFormGUI.this,
+                            "Login Failed...");
+                }
+            }
+        });
         add(loginButton);
 
 

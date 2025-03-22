@@ -5,10 +5,10 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/../../../../GitHub/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0/META-INF/MANIFEST.MF" />
       </element>
+      <element id="module-output" name="MyJDBCmanagement" />
       <element id="module-output" name="AppLauncherManagement" />
       <element id="module-output" name="FormManagement" />
       <element id="module-output" name="CommonConstantsManagement" />
-      <element id="module-output" name="MyJDBCmanagement" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../../../../GitHub/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0.jar" path-in-jar="/" />
       <element id="library" level="project" name="mysql-connector-j-9.2.0" />
     </root>
