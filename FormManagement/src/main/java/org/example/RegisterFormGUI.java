@@ -17,7 +17,7 @@ public class RegisterFormGUI extends Form {
     private void addGuiComponents(){
 
         //Creating Register label
-        JLabel registerLabel = new JLabel("Rgister");
+        JLabel registerLabel = new JLabel("Register");
 
         // Configuring component's x, y position and width/height values relative to the GUI
         registerLabel.setBounds(0,25,520,100);
